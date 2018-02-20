@@ -14911,14 +14911,16 @@ Source: MaxStream, Inc. xbee_productmanual.pdf</description>
 <label x="40.64" y="76.2" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="C.AMP" gate="A" pin="+IN"/>
-<wire x1="30.48" y1="55.88" x2="25.4" y2="55.88" width="0.1524" layer="91"/>
-<label x="20.32" y="55.88" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="V.AMP" gate="A" pin="+IN"/>
-<wire x1="63.5" y1="58.42" x2="48.26" y2="58.42" width="0.1524" layer="91"/>
-<label x="48.26" y="58.42" size="1.778" layer="95"/>
+<pinref part="C.AMP" gate="A" pin="-IN"/>
+<wire x1="30.48" y1="50.8" x2="25.4" y2="50.8" width="0.1524" layer="91"/>
+<label x="20.32" y="50.8" size="1.778" layer="95"/>
+<wire x1="30.48" y1="50.8" x2="30.48" y2="38.1" width="0.1524" layer="91"/>
+<junction x="30.48" y="50.8"/>
+<pinref part="C1" gate="G$1" pin="2"/>
+<wire x1="30.48" y1="38.1" x2="33.02" y2="38.1" width="0.1524" layer="91"/>
+<pinref part="R4" gate="G$1" pin="1"/>
+<wire x1="30.48" y1="38.1" x2="30.48" y2="25.4" width="0.1524" layer="91"/>
+<junction x="30.48" y="38.1"/>
 </segment>
 </net>
 <net name="N$3" class="0">
@@ -15033,18 +15035,6 @@ Source: MaxStream, Inc. xbee_productmanual.pdf</description>
 <junction x="55.88" y="81.28"/>
 </segment>
 <segment>
-<pinref part="C.AMP" gate="A" pin="-IN"/>
-<wire x1="30.48" y1="50.8" x2="25.4" y2="50.8" width="0.1524" layer="91"/>
-<label x="20.32" y="50.8" size="1.778" layer="95"/>
-<wire x1="30.48" y1="50.8" x2="30.48" y2="38.1" width="0.1524" layer="91"/>
-<junction x="30.48" y="50.8"/>
-<pinref part="C1" gate="G$1" pin="2"/>
-<wire x1="30.48" y1="38.1" x2="33.02" y2="38.1" width="0.1524" layer="91"/>
-<pinref part="R4" gate="G$1" pin="1"/>
-<wire x1="30.48" y1="38.1" x2="30.48" y2="25.4" width="0.1524" layer="91"/>
-<junction x="30.48" y="38.1"/>
-</segment>
-<segment>
 <pinref part="MPU" gate="G$1" pin="4"/>
 <wire x1="-7.62" y1="45.72" x2="-17.78" y2="45.72" width="0.1524" layer="91"/>
 <pinref part="GND20" gate="1" pin="GND"/>
@@ -15053,6 +15043,16 @@ Source: MaxStream, Inc. xbee_productmanual.pdf</description>
 <pinref part="XB1" gate="G$1" pin="GND"/>
 <wire x1="109.22" y1="-5.08" x2="104.14" y2="-5.08" width="0.1524" layer="91"/>
 <label x="104.14" y="-5.08" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="C.AMP" gate="A" pin="+IN"/>
+<wire x1="30.48" y1="55.88" x2="25.4" y2="55.88" width="0.1524" layer="91"/>
+<label x="20.32" y="55.88" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="V.AMP" gate="A" pin="+IN"/>
+<wire x1="63.5" y1="58.42" x2="48.26" y2="58.42" width="0.1524" layer="91"/>
+<label x="48.26" y="58.42" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="V+" class="0">

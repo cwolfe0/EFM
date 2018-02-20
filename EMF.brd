@@ -4281,14 +4281,15 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <signals>
 <signal name="S2(VIN)">
 <contactref element="X1" pad="2"/>
-<contactref element="C.AMP" pad="3"/>
-<contactref element="V.AMP" pad="3"/>
-<wire x1="41.275" y1="47.371" x2="40.259" y2="46.355" width="0.4064" layer="16"/>
-<wire x1="40.259" y1="46.355" x2="35.62" y2="46.355" width="0.4064" layer="16"/>
-<wire x1="36.86729375" y1="53.3606" x2="36.2344" y2="53.3606" width="0.4064" layer="16"/>
-<wire x1="36.2344" y1="53.3606" x2="35.62" y2="53.975" width="0.4064" layer="16"/>
-<wire x1="41.275" y1="47.371" x2="41.275" y2="48.95289375" width="0.4064" layer="16"/>
-<wire x1="41.275" y1="48.95289375" x2="36.86729375" y2="53.3606" width="0.4064" layer="16"/>
+<contactref element="C.AMP" pad="2"/>
+<contactref element="C1" pad="2"/>
+<contactref element="R4" pad="1"/>
+<wire x1="36.51" y1="45.162" x2="36.46" y2="45.212" width="0.4064" layer="1"/>
+<wire x1="41.275" y1="47.371" x2="35.874" y2="47.371" width="0.4064" layer="16"/>
+<wire x1="35.874" y1="47.371" x2="35.62" y2="47.625" width="0.4064" layer="16"/>
+<wire x1="36.51" y1="43.434" x2="36.51" y2="45.162" width="0.4064" layer="1"/>
+<wire x1="41.275" y1="47.371" x2="37.338" y2="43.434" width="0.4064" layer="1"/>
+<wire x1="37.338" y1="43.434" x2="36.51" y2="43.434" width="0.4064" layer="1"/>
 </signal>
 <signal name="N$3">
 <contactref element="C.AMP" pad="6"/>
@@ -4347,10 +4348,6 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="LED1" pad="C"/>
 <contactref element="JP4" pad="5"/>
 <contactref element="X1" pad="1"/>
-<contactref element="C.AMP" pad="2"/>
-<contactref element="C1" pad="2"/>
-<contactref element="R4" pad="1"/>
-<wire x1="36.51" y1="45.162" x2="36.46" y2="45.212" width="0.4064" layer="1"/>
 <polygon width="0.4064" layer="1">
 <vertex x="0" y="16.51"/>
 <vertex x="0" y="80.01"/>
@@ -4365,7 +4362,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </polygon>
 <contactref element="MPU" pad="4"/>
 <contactref element="XB1" pad="10"/>
-<wire x1="4.699" y1="41.402" x2="16.94" y2="36.94" width="0" layer="19" extent="1-1"/>
+<contactref element="C.AMP" pad="3"/>
+<contactref element="V.AMP" pad="3"/>
 </signal>
 <signal name="V+">
 <contactref element="C.AMP" pad="7"/>
