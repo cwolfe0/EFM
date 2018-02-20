@@ -14904,7 +14904,7 @@ Source: MaxStream, Inc. xbee_productmanual.pdf</description>
 <busses>
 </busses>
 <nets>
-<net name="S2(VIN)" class="0">
+<net name="S1(VIN)" class="0">
 <segment>
 <pinref part="X1" gate="-2" pin="S"/>
 <wire x1="55.88" y1="78.74" x2="40.64" y2="78.74" width="0.1524" layer="91"/>

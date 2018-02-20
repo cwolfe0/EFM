@@ -4279,7 +4279,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </element>
 </elements>
 <signals>
-<signal name="S2(VIN)">
+<signal name="S1(VIN)">
 <contactref element="X1" pad="2"/>
 <contactref element="C.AMP" pad="2"/>
 <contactref element="C1" pad="2"/>
