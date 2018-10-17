@@ -1,0 +1,7 @@
+
+#********** START OF eagle-lbr2kicad-1.0.ulp 3.1 14-09-2018 :18:15:18 LOG **********#
+Missing Prefix Part =HORZ				AVR-7_AVR-ISP-6R					EMF		M
+Missing Prefix Part =VERT				AVR-7_AVR-ISP-6					EMF		M
+Missing Prefix Part =CR-123-A				SHC_CR-123-A_HOLDER					EMF		M
+#********** END OF eagle-lbr2kicad-1.0.ulp 3.1 14-09-2018 :18:15:18 LOG **********#
+
